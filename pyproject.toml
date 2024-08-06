@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "crud-python"
+version = "0.1.0"
+description = ""
+authors = ["williamsilva"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.32"
+pydentic = {extras = ["email"], version = "^0.0.1.dev3"}
+fastapi = "^0.112.0"
+uvicorn = "^0.30.5"
+psycopg2 = "^2.9.9"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+streamlit = "^1.37.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
